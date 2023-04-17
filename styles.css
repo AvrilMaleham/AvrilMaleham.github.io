@@ -22,7 +22,7 @@ h1 {
   letter-spacing: 1px;
 }
 
-main {
+.boxOne {
   display: flex;
 }
 
@@ -75,7 +75,7 @@ a:hover {
 }
 
 @media (max-width: 800px) {
-  main {
+  .boxOne {
     display: flex;
     flex-direction: column;
     align-items: center;
