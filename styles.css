@@ -24,6 +24,7 @@ h1 {
 
 .boxOne {
   display: flex;
+  margin-bottom: 6%;
 }
 
 .left {
@@ -64,19 +65,11 @@ a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 1261px) {
-  .right {
-    margin-top: 6%;
-  }
-}
 
 @media (max-width: 1200px) {
   .right {
     margin-top: 5%;
   }
-}
-
-@media (max-width: 800px) {
   .boxOne {
     display: flex;
     flex-direction: column;
@@ -89,6 +82,21 @@ a:hover {
   .left {
     width: 90%;
     margin-right: 8%;
+  }
+}
+
+
+@media (max-width: 585px) {
+  img {
+    width: 400px; 
+    height: 240px; 
+  }
+}
+
+@media (max-width: 475px) {
+  img {
+    width: 300px; 
+    height: 180px; 
   }
 }
 
